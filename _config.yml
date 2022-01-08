@@ -14,7 +14,7 @@ footer_text: >
 keywords: tuan, A. Tuan Nguyen, tuan nguyen, oxford  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: assets/img/ox_icon.png # the emoji used as the favicon
+icon: /assets/img/ox_icon.png # the emoji used as the favicon
 use_custom_favicon: true # if this is true, you can set favicon path instead of using default emoji
 
 url: https://tuannguyen.github.io/ # the base hostname & protocol for your site
@@ -109,7 +109,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 10
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -204,7 +204,7 @@ jekyll-archives:
 scholar:
 
   last_name: Nguyen
-  first_name: [A. Tuan, A Tuan, Tuan A.]
+  first_name: [A. Tuan, A Tuan, Tuan A., Tuan]
 
   style: apa
   locale: en

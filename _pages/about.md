@@ -21,4 +21,4 @@ My research interests include Representation Learning, Domain Adaptation/General
 
 My CV is available upon request. 
 
-Also, I am always interested in internship and collaboration opportunities. Please reach me via email: tuan at robots dot ox dot ac dot uk
+Also, I am always interested in internship and collaboration opportunities. Please reach out to me via email: tuan at robots dot ox dot ac dot uk
