@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='/'>DPhil Student, University of Oxford</a> <br>Oxford, United Kingdom
 
