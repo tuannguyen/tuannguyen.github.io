@@ -1,0 +1,45 @@
+---
+---
+
+@article{nguyen2021domain,
+  abbr={NeurIPS},
+  bibtex_show={true},
+  selected={true},
+  abstract={Domain generalization refers to the problem where we aim to train a model on
+data from a set of source domains so that the model can generalize to unseen target
+domains. Naively training a model on the aggregate set of data (pooled from all
+source domains) has been shown to perform suboptimally, since the information
+learned by that model might be domain-specific and generalize imperfectly to target
+domains. To tackle this problem, a predominant domain generalization approach
+is to learn some domain-invariant information for the prediction task, aiming at
+a good generalization across domains. In this paper, we propose a theoretically
+grounded method to learn a domain-invariant representation by enforcing the
+representation network to be invariant under all transformation functions among
+domains. We next introduce the use of generative adversarial networks to learn such
+domain transformations in a possible implementation of our method in practice.
+We demonstrate the effectiveness of our method on several widely used datasets for
+the domain generalization problem, on all of which we achieve competitive results
+with state-of-the-art models.},
+  pdf={NeurIPS_nguyen2021domain.pdf},
+  html={https://papers.nips.cc/paper/2021/hash/2a2717956118b4d223ceca17ce3865e2-Abstract.html},
+  title={Domain Invariant Representation Learning with Domain Density Transformations},
+  author={Nguyen, A. Tuan and Tran, Toan and Gal, Yarin and Baydin, At{\i}l{\i}m G{\"u}ne{\c{s}}},
+  journal={Advances in Neural Information Processing Systems 35 (NeurIPS)},
+  year={2021}
+}
+
+@article{nguyen2021clinical,
+abbr={AAAI},
+bibtex_show={true},
+selected={true},
+pdf={AAAI_nguyen2021clinical.pdf},
+html={https://ojs.aaai.org/index.php/AAAI/article/view/17097},
+title={Clinical Risk Prediction with Temporal Probabilistic Asymmetric Multi-Task Learning}, 
+volume={35}, url={https://ojs.aaai.org/index.php/AAAI/article/view/17097}, 
+abstract={Although recent multi-task learning methods have shown to be effective in improving the generalization of deep neural networks, they should be used with caution for safety-critical applications, such as clinical risk prediction. This is because even if they achieve improved task-average performance, they may still yield degraded performance on individual tasks, which may be critical (e.g., prediction of mortality risk). Existing asymmetric multi-task learning methods tackle this negative transfer problem by performing knowledge transfer from tasks with low loss to tasks with high loss. However, using loss as a measure of reliability is risky since low loss could result from overfitting. In the case of time-series prediction tasks, knowledge learned for one task (e.g., predicting the sepsis onset) at a specific timestep may be useful for learning another task (e.g., prediction of mortality) at a later timestep, but lack of loss at each timestep makes it difficult to measure the reliability at each timestep. To capture such dynamically changing asymmetric relationships between tasks in time-series data, we propose a novel temporal asymmetric multi-task learning model that performs knowledge transfer from certain tasks/timesteps to relevant uncertain tasks, based on the feature-level uncertainty. We validate our model on multiple clinical risk prediction tasks against various deep learning models for time-series prediction, which our model significantly outperforms without any sign of negative transfer. Further qualitative analysis of learned knowledge graphs by clinicians shows that they are helpful in analyzing the predictions of the model.}, 
+number={10}, 
+journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+author={Nguyen, A. Tuan and Jeong, Hyewon and Yang, Eunho and Hwang, Sung Ju}, 
+year={2021}, month={May}, pages={9081-9091} }
+
+
